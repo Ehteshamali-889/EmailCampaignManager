@@ -1,0 +1,28 @@
+{
+  "name": "yourname/email-campaign-manager",
+  "description": "Laravel package for email campaigns",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Your Name",
+      "email": "your@email.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "EmailCampaignManager\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "EmailCampaignManager\\EmailCampaignManagerServiceProvider"
+      ]
+    }
+  },
+  "require": {
+    "php": "^8.0",
+    "illuminate/support": "^10.0"
+  }
+}
